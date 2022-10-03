@@ -19,5 +19,4 @@ public abstract class AbsUUIDEntity extends AbsMainEntity {
     @Type(type = "org.hibernate.type.PostgresUUIDType")
     @GenericGenerator(name = "uuid2", strategy = "org.hibernate.id.UUIDGenerator")
     private UUID id;
-
 }
